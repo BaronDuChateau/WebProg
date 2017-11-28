@@ -54,7 +54,7 @@
 		*/
 		public function print_caracs()
 		{
-			echo  "<p>This employee is " . $this->name . ". <br>His/her name is " . $this->email . ".<br>His/her birthdate is " . date("Y-m-d", $this->birthdate) . ".<br>";
+			echo  "<p>This employee is " . $this->name . ". <br>His/her email is " . $this->email . ".<br>His/her birthdate is " . date("Y-m-d", $this->birthdate) . ".<br>";
 		}
 		/**
 		* Static methods
